@@ -354,6 +354,8 @@ body h2 {
 }
 .pageContainer footer .contact {
   font-size: 3rem;
+  text-align: center;
+  line-height: 4.2rem;
 }
 .pageContainer footer .contact a {
   color: dodgerblue;
