@@ -142,18 +142,20 @@ nav {
 }
 nav a {
   font-size: 4rem;
+  margin-left: 5%;
   max-height: 80%;
+  border: 1px solid red;
 }
 .logButton {
   background: lightblue;
   font-size: 3rem;
-  width: 10%;
+  width: 12%;
   height: 50%;
-  margin-left: 2%;
+  margin-left: 10%;
   width: 8%;
 }
 body h2 {
-  font-size: 3.6rem;
+  font-size: 5rem;
 }
 .pageContainer {
   width: 80%;
@@ -165,41 +167,45 @@ body h2 {
 .pageContainer header {
   display: flex;
   width: 100%;
-  border: 1px solid orange;
 }
 .pageContainer header .logoImage {
   width: 25%;
-  border: 1px solid red;
 }
 .pageContainer header .logoImage img {
   width: 100%;
 }
 .pageContainer .topFirstBox {
   margin: 3% 0;
-  font-size: 1.6rem;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  border: 1px solid green;
 }
 .pageContainer .topFirstBox h2 {
   width: 100%;
+  font-size: 10rem;
   text-align: center;
-  border: 1px solid purple;
+  margin-bottom: 2%;
 }
 .pageContainer .topFirstBox .sectionTitle {
   width: 50%;
-  border: 1px solid blue;
   justify-content: center;
 }
 .pageContainer .topFirstBox .sectionTitle p {
-  padding: 0 4.5%;
+  padding: 0 4.5% 0 0;
   font-size: 3rem;
-  border: 1px solid red;
+}
+.pageContainer .topFirstBox .sectionTitle .standardPageButton {
+  width: 25%;
+  background: grey;
+  height: 7rem;
+  font-size: 3.6rem;
+  padding: 0.4%;
+  margin: 10% 0 0 30%;
+  border: 1px solid blue;
 }
 .pageContainer .topFirstBox .topimg {
   width: 45%;
-  border: 1px solid red;
 }
 .pageContainer .topFirstBox .topimg img {
   width: 100%;
