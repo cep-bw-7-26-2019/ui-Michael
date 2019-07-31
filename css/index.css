@@ -187,15 +187,15 @@ body h2 {
   text-align: center;
   margin-bottom: 2%;
 }
-.pageContainer .topFirstBox .sectionTitle {
+.pageContainer .topFirstBox .sectionText {
   width: 50%;
   justify-content: center;
 }
-.pageContainer .topFirstBox .sectionTitle p {
+.pageContainer .topFirstBox .sectionText p {
   padding: 0 4.5% 0 0;
   font-size: 3rem;
 }
-.pageContainer .topFirstBox .sectionTitle .standardPageButton {
+.pageContainer .topFirstBox .sectionText .standardPageButton {
   width: 25%;
   background: grey;
   height: 7rem;
@@ -209,4 +209,41 @@ body h2 {
 }
 .pageContainer .topFirstBox .topimg img {
   width: 100%;
+}
+.pageContainer .middleSection {
+  margin: 3% 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+.pageContainer .middleSection h2 {
+  width: 100%;
+  font-size: 10rem;
+  text-align: center;
+  margin: 0% 0 2% 2%;
+  border: 1px solid purple;
+}
+.pageContainer .middleSection .bottomImage {
+  width: 50%;
+  border: 2px solid red;
+}
+.pageContainer .middleSection .bottomImage img {
+  width: 100%;
+}
+.pageContainer .middleSection .middleContent {
+  width: 45%;
+}
+.pageContainer .middleSection .middleContent p {
+  width: 100%;
+  font-size: 3rem;
+}
+.pageContainer .middleSection .middleContent .longButton {
+  width: 25%;
+  background: grey;
+  font-size: 3.6rem;
+  padding: 0.4%;
+  margin: 15% 0 2% 15%;
+  border: 1px solid blue;
 }
