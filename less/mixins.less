@@ -1,0 +1,23 @@
+// Button
+.sign-up(@bcolor:@grey, @fcolor: @navy, @width: 15%){ 
+    border: 1px solid black;
+    width: @width;
+    background-color: @bcolor;
+    color: @fcolor;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 1%;
+    border-radius: 10%;
+//  hover   
+    &:hover {
+        background-color:@fcolor;
+        color: @bcolor;
+    }
+
+    @media @phone {
+        width: 95%;
+    }
+}

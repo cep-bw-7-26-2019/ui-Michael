@@ -1,26 +1,48 @@
 nav {
     width: 75%;
+    background: @navy;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border:1px solid green;
+    @media @phone{
+      width: 95.5%;
+      text-align: center; 
+      display: flex;
+
+      flex-direction: column;
+    }
+    
+   //  border:3px solid red;
 
 }
  nav a {
-    
+   color: @offWhite;
+   text-decoration: none;
     font-size: 4rem;
     margin-left: 5%;
-    max-height:80%;
-    //  align-items: 
-    border: 1px solid red;
+   
+   @media @phone {
+      margin-left: 0;
+
+   }
+   //  border: 1px solid red;
+   
  }
 
  .logButton {
-    background: lightblue;
+    background: @offWhite;
+    border-radius: 15%;
+    text-align: center;
     font-size: 3rem;
     width:12%;
     height:50%;
     margin-left: 10%;
     // margin-right: 8%;
-    width: 8%;
+    @media @phone {
+       width: 75%;
+       font-size: 1.6rem;
+       margin:0;
+
+    }
+    
  }

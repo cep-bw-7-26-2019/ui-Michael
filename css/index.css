@@ -135,24 +135,45 @@ html {
 }
 nav {
   width: 75%;
+  background: #013D7D;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid green;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 95.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
 nav a {
+  color: #E8ECF0;
+  text-decoration: none;
   font-size: 4rem;
   margin-left: 5%;
-  max-height: 80%;
-  border: 1px solid red;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin-left: 0;
+  }
 }
 .logButton {
-  background: lightblue;
+  background: #E8ECF0;
+  border-radius: 15%;
+  text-align: center;
   font-size: 3rem;
   width: 12%;
   height: 50%;
   margin-left: 10%;
-  width: 8%;
+}
+@media (max-width: 500px) {
+  .logButton {
+    width: 75%;
+    font-size: 1.6rem;
+    margin: 0;
+  }
 }
 body h2 {
   font-size: 5rem;
@@ -164,6 +185,12 @@ body h2 {
   margin-left: 15%;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .pageContainer {
+    width: 95%;
+    margin: 2% 3% 2% 3%;
+  }
+}
 .pageContainer header {
   display: flex;
   width: 100%;
@@ -171,8 +198,21 @@ body h2 {
 .pageContainer header .logoImage {
   width: 25%;
 }
+@media (max-width: 500px) {
+  .pageContainer header .logoImage {
+    width: 95%;
+    justify-content: center;
+  }
+}
 .pageContainer header .logoImage img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .pageContainer header {
+    width: 95%;
+    margin-left: 2.5%;
+    flex-direction: column;
+  }
 }
 .pageContainer .topFirstBox {
   margin: 3% 0;
@@ -181,33 +221,69 @@ body h2 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox {
+    margin: 0;
+    flex-direction: column;
+  }
+}
 .pageContainer .topFirstBox h2 {
   width: 100%;
   font-size: 10rem;
   text-align: center;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox h2 {
+    font-size: 4rem;
+    border-top: 0.1rem solid #013D7D;
+    margin-top: 4%;
+  }
+}
 .pageContainer .topFirstBox .sectionText {
   width: 50%;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox .sectionText {
+    width: 100%;
+  }
 }
 .pageContainer .topFirstBox .sectionText p {
   padding: 0 4.5% 0 0;
   font-size: 3rem;
 }
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox .sectionText p {
+    padding: 0;
+    font-size: 1.6rem;
+  }
+}
 .pageContainer .topFirstBox .sectionText .standardPageButton {
   width: 25%;
-  background: grey;
-  height: 7rem;
+  background: #E8ECF0;
   font-size: 3.6rem;
   padding: 0.4%;
   margin: 10% 0 0 30%;
+}
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox .sectionText .standardPageButton {
+    width: 55%;
+    padding: 0;
+    margin-left: 23%;
+    margin-bottom: 10%;
+  }
 }
 .pageContainer .topFirstBox .topimg {
   width: 45%;
 }
 .pageContainer .topFirstBox .topimg img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .pageContainer .topFirstBox .topimg {
+    width: 100%;
+  }
 }
 .pageContainer .middleSection {
   margin: 3% 0;
@@ -221,6 +297,13 @@ body h2 {
   font-size: 10rem;
   text-align: center;
   margin: 0% 0 2% 2%;
+}
+@media (max-width: 500px) {
+  .pageContainer .middleSection h2 {
+    font-size: 4rem;
+    border-top: 0.1rem solid #013D7D;
+    margin-top: 4%;
+  }
 }
 .pageContainer .middleSection .bottomImage {
   width: 50%;
@@ -265,9 +348,45 @@ body h2 {
   margin-left: 40%;
   font-size: 3.6rem;
 }
+.pageContainer footer {
+  background: #E8ECF0;
+  margin: 6% 0;
+}
 .pageContainer footer .contact {
   font-size: 3rem;
 }
 .pageContainer footer .contact a {
   color: dodgerblue;
+}
+.teamSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.teamSection h2 {
+  width: 100%;
+  justify-items: center;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 10rem;
+}
+.teamSection .teamBio {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.teamSection .teamBio .memberBox {
+  width: 30%;
+  margin: 5% 0;
+  border: 0.3rem solid #000;
+}
+.teamSection .teamBio .memberBox img {
+  width: 90%;
+  margin-left: 5%;
+  padding: 1rem;
+}
+.teamSection .teamBio .memberBox p {
+  font-size: 2rem;
+  text-align: center;
 }

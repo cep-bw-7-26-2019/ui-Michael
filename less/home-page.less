@@ -13,6 +13,11 @@ body {
     margin-top:2%;
     margin-left: 15%;
     margin-bottom: 2%;
+
+    @media @phone {
+        width: 95%;
+        margin: 2% 3% 2% 3%;
+    }
     // border: 1px solid red;
 
 
@@ -23,11 +28,22 @@ body {
 
         .logoImage {
             width: 25%;
+            @media @phone {
+                width:95%;
+                justify-content: center;
+
+            }
             // border: 1px solid red;
             img{
                 width:100%;
             }
         
+        }
+        @media @phone {
+            width: 95%;
+            margin-left: 2.5%;
+            flex-direction: column;
+            
         }
     
     }
@@ -41,6 +57,10 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;  
         // padding: 0 4.5%;
+        @media @phone {
+            margin:0;
+            flex-direction: column;
+        }
 
 
         // border: 1px solid green;
@@ -49,6 +69,12 @@ body {
             font-size: 10rem;
             text-align: center;
             margin-bottom: 2%;
+
+            @media @phone {
+                font-size: 4rem;
+                border-top: .1rem solid @navy;
+                margin-top: 4%;
+            }
             // border: 1px solid purple;
         }
         
@@ -58,20 +84,37 @@ body {
             // padding-left:35%;
             // border:1px solid blue;
             justify-content: center;
+
+            @media @phone {
+                width:100%;
+            }
             
             p {
                 padding: 0 4.5% 0 0 ;
                 font-size: 3rem;
                 // border: 1px solid red;
+
+                @media @phone {
+                    padding: 0;
+                    font-size: 1.6rem;
+                }
            }
            // top button only
            .standardPageButton {
                width: 25%;
-               background: grey;
-               height: 7rem;
+               background: @offWhite;
+            //    height: 7rem;
                font-size: 3.6rem;
                padding: .4%;
-               margin:10% 0 0 30%;               
+               margin:10% 0 0 30%; 
+               
+               @media @phone {
+                   width: 55%;
+                   padding: 0;
+                   margin-left:23%;
+                   margin-bottom: 10%;
+
+               }
                
             //    border: 1px solid blue;
 
@@ -83,6 +126,9 @@ body {
             // border:2px solid red;
             img {
                 width:100%;
+            }
+            @media @phone {
+                width: 100%;
             }
 
         }
@@ -104,6 +150,12 @@ body {
             font-size: 10rem;
             text-align: center;
             margin:0% 0 2% 2%;
+            
+            @media @phone {
+                font-size: 4rem;
+                border-top: .1rem solid @navy;
+                margin-top: 4%;
+            }
             // border: 1px solid purple;
         }
         .bottomImage {
@@ -165,6 +217,8 @@ body {
     //footer and any other contact info
 
     footer {
+        background: #E8ECF0;
+        margin: 6% 0;
         .contact {
             font-size: 3rem;
 
