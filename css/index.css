@@ -182,8 +182,11 @@ nav a {
   text-align: center;
   font-size: 3rem;
   width: 12%;
-  height: 50%;
   margin-left: 10%;
+}
+.logButton:hover {
+  background-color: #013D7D;
+  color: white;
 }
 @media (max-width: 1000px) {
   .logButton {
@@ -311,6 +314,10 @@ body h2 {
   padding: 0.4%;
   margin: 10% 0 0 30%;
 }
+.pageContainer .topFirstBox .sectionText .standardPageButton:hover {
+  background-color: #013D7D;
+  color: white;
+}
 @media (max-width: 1000px) {
   .pageContainer .topFirstBox .sectionText .standardPageButton {
     font-size: 1.6rem;
@@ -378,6 +385,11 @@ body h2 {
     font-size: 1.6rem;
   }
 }
+@media (max-width: 700px) {
+  .pageContainer .middleSection .middleContent p {
+    font-size: 1.6rem;
+  }
+}
 @media (max-width: 500px) {
   .pageContainer .middleSection .middleContent p {
     width: 55%;
@@ -393,9 +405,19 @@ body h2 {
   padding: 0.4%;
   margin: 5% 0 2% 35%;
 }
+.pageContainer .middleSection .middleContent .longButton:hover {
+  background-color: #013D7D;
+  color: white;
+}
 @media (max-width: 1000px) {
   .pageContainer .middleSection .middleContent .longButton {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 700px) {
+  .pageContainer .middleSection .middleContent .longButton {
+    width: 50%;
+    margin: 5% 0 2% 25%;
   }
 }
 @media (max-width: 500px) {
@@ -458,7 +480,7 @@ body h2 {
 @media (max-width: 1000px) {
   .pageContainer .bottomSection .toAboutPage {
     font-size: 1.6rem;
-    margin: 4% 0 4% 39%;
+    margin: 4% 0 4% 36%;
   }
 }
 @media (max-width: 500px) {
