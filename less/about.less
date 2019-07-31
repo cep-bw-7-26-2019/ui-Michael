@@ -10,6 +10,10 @@
         // margin-left: 33%;
         margin-top: 3%;
         font-size: 10rem;
+
+        @media @phone{
+            font-size: 4rem;
+        }
         
         // border: 1px solid orange;
 
@@ -19,10 +23,27 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+
+        @media @phone {
+            flex-direction: column;
+            
+        }
+
         .memberBox {
             width: 30%;
             margin: 5% 0;
             border:.3rem solid #000;
+
+            @media @tablet {
+                width: 45%;
+                
+            }
+
+            @media @phone {
+                width: 85%;
+                justify-content: center;
+                margin-left: 7.5%;
+            }
 
             // border: 1px solid red;
             img {
