@@ -206,13 +206,20 @@ body {
         }
         .bottomImage {
             width: 50%;
-            // border:2px solid red;
+            // border:2px solid red;        
             img {
                 width:100%;
+            }
+            @media @phone {
+                width: 100%;
             }
         }
         .middleContent {
             width:45%;
+
+            @media @phone {
+                width: 100%;
+            }
 
             p {
                 width: 100%;
@@ -227,9 +234,9 @@ body {
                 }
 
                 @media @phone {
-                    width: 55%;
+                    width: 100%;
                     padding: 0;
-                    margin-left:23%;
+                    // margin-left:23%;
                     margin-bottom: 10%;
                 }
             }
@@ -262,6 +269,7 @@ body {
                     padding: 0;
                     margin-left:23%;
                     margin-bottom: 10%;
+                    font-size: 3rem;
  
                 }   
                 //    border: 1px solid blue;

@@ -373,8 +373,18 @@ body h2 {
 .pageContainer .middleSection .bottomImage img {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .pageContainer .middleSection .bottomImage {
+    width: 100%;
+  }
+}
 .pageContainer .middleSection .middleContent {
   width: 45%;
+}
+@media (max-width: 500px) {
+  .pageContainer .middleSection .middleContent {
+    width: 100%;
+  }
 }
 .pageContainer .middleSection .middleContent p {
   width: 100%;
@@ -392,9 +402,8 @@ body h2 {
 }
 @media (max-width: 500px) {
   .pageContainer .middleSection .middleContent p {
-    width: 55%;
+    width: 100%;
     padding: 0;
-    margin-left: 23%;
     margin-bottom: 10%;
   }
 }
@@ -426,6 +435,7 @@ body h2 {
     padding: 0;
     margin-left: 23%;
     margin-bottom: 10%;
+    font-size: 3rem;
   }
 }
 .pageContainer .bottomSection {
