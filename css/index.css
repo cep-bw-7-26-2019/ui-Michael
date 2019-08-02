@@ -182,7 +182,8 @@ nav a {
   text-align: center;
   font-size: 3rem;
   width: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
+  border: 1px solid red;
 }
 .logButton:hover {
   background-color: #013D7D;
@@ -484,8 +485,9 @@ body h2 {
 .pageContainer .bottomSection .toAboutPage {
   width: 25%;
   background: #E8ECF0;
-  margin-left: 40%;
+  margin-left: 36%;
   font-size: 3.6rem;
+  margin-top: 5%;
 }
 @media (max-width: 1000px) {
   .pageContainer .bottomSection .toAboutPage {
@@ -531,12 +533,19 @@ body h2 {
     line-height: 2rem;
   }
 }
-.teamSection {
+.pageContainer {
+  width: 70%;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+.pageContainer .teamSection {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.teamSection h2 {
+.pageContainer .teamSection h2 {
   width: 100%;
   justify-items: center;
   text-align: center;
@@ -544,44 +553,44 @@ body h2 {
   font-size: 10rem;
 }
 @media (max-width: 500px) {
-  .teamSection h2 {
+  .pageContainer .teamSection h2 {
     font-size: 4rem;
   }
 }
-.teamSection .teamBio {
+.pageContainer .teamSection .teamBio {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 @media (max-width: 500px) {
-  .teamSection .teamBio {
+  .pageContainer .teamSection .teamBio {
     flex-direction: column;
   }
 }
-.teamSection .teamBio .memberBox {
+.pageContainer .teamSection .teamBio .memberBox {
   width: 30%;
   margin: 5% 0;
   border: 0.3rem solid #000;
 }
 @media (max-width: 700px) {
-  .teamSection .teamBio .memberBox {
+  .pageContainer .teamSection .teamBio .memberBox {
     width: 45%;
   }
 }
 @media (max-width: 500px) {
-  .teamSection .teamBio .memberBox {
+  .pageContainer .teamSection .teamBio .memberBox {
     width: 85%;
     justify-content: center;
     margin-left: 7.5%;
   }
 }
-.teamSection .teamBio .memberBox img {
+.pageContainer .teamSection .teamBio .memberBox img {
   width: 90%;
   margin-left: 5%;
   padding: 1rem;
 }
-.teamSection .teamBio .memberBox p {
+.pageContainer .teamSection .teamBio .memberBox p {
   font-size: 2rem;
   text-align: center;
 }

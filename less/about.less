@@ -1,62 +1,70 @@
-.teamSection {
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
+.pageContainer {
+    width: 70%;
+    justify-content: center;
+    margin-top:2%;
+    margin-left: 15%;
+    margin-bottom: 2%;
 
-    h2 {
-        width: 100%;
-        justify-items: center;
-        text-align: center;
-        // margin-left: 33%;
-        margin-top: 3%;
-        font-size: 10rem;
-
-        @media @phone{
-            font-size: 4rem;
-        }
-        
-        // border: 1px solid orange;
-
-    }
-    .teamBio{
-        width: 100%;
-        display: flex;
+    .teamSection {
+        width:100%;
+        display:flex;
         flex-wrap: wrap;
-        justify-content: space-around;
 
-        @media @phone {
-            flex-direction: column;
+        h2 {
+            width: 100%;
+            justify-items: center;
+            text-align: center;
+            // margin-left: 33%;
+            margin-top: 3%;
+            font-size: 10rem;
+
+            @media @phone{
+                font-size: 4rem;
+            }
             
+            // border: 1px solid orange;
+
         }
+        .teamBio{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
 
-        .memberBox {
-            width: 30%;
-            margin: 5% 0;
-            border:.3rem solid #000;
-
-            @media @tablet {
-                width: 45%;
+            @media @phone {
+                flex-direction: column;
                 
             }
 
-            @media @phone {
-                width: 85%;
-                justify-content: center;
-                margin-left: 7.5%;
-            }
+            .memberBox {
+                width: 30%;
+                margin: 5% 0;
+                border:.3rem solid #000;
 
-            // border: 1px solid red;
-            img {
-                width: 90%;
-                margin-left: 5%;
-                padding:1rem;
+                @media @tablet {
+                    width: 45%;
+                    
+                }
+
+                @media @phone {
+                    width: 85%;
+                    justify-content: center;
+                    margin-left: 7.5%;
+                }
+
                 // border: 1px solid red;
-            }
-            p { 
-                font-size: 2rem;
-                text-align: center;
-                // border: 1px solid red;
+                img {
+                    width: 90%;
+                    margin-left: 5%;
+                    padding:1rem;
+                    // border: 1px solid red;
+                }
+                p { 
+                    font-size: 2rem;
+                    text-align: center;
+                    // border: 1px solid red;
+                }
             }
         }
-    }
+}
 }
