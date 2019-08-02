@@ -135,7 +135,7 @@ html {
 }
 nav {
   width: 100%;
-  background: #013D7D;
+  background: #0176EB;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -181,12 +181,12 @@ nav a {
   border-radius: 15%;
   text-align: center;
   font-size: 3rem;
-  width: 12%;
+  width: 100%;
   margin-left: 10%;
 }
 .logButton:hover {
   background-color: #013D7D;
-  color: white;
+  color: #E8ECF0;
 }
 @media (max-width: 1000px) {
   .logButton {
