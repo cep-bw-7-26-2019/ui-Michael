@@ -183,7 +183,6 @@ nav a {
   font-size: 3rem;
   width: 100%;
   margin-left: 5%;
-  border: 1px solid red;
 }
 .logButton:hover {
   background-color: #013D7D;
